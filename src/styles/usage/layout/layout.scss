@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+// Import
+@import "../core/reset";
+@import "../core/swiper-3.3.1.min.css";
+
+// Config
+// 定制 qapp 样式
+spa-app {
+    position: absolute;
+    overflow: hidden;
+}
+
+spa-view {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #eceef0 !important;
+    @include flexbox(flex);
+    @include flex-direction(column);
+}

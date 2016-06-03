@@ -1,0 +1,18 @@
+<div class="swiper-container" id="guide-swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="/yiqizhuangxiu/images/slide1.png" /></div>
+    <div class="swiper-slide"><img src="/yiqizhuangxiu/images/slide2.png" /></div>
+    <div class="swiper-slide"><img src="/yiqizhuangxiu/images/slide3.png" /></div>
+    <div class="swiper-slide" action-type="goto.index"><img src="/yiqizhuangxiu/images/slide4.png" /></div>
+  </div>
+</div>
+
+
+<!--<div class="swiper-container" id="guide-swiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="/footballSNS/images/slide1.png" /></div>
+    <div class="swiper-slide"><img src="/footballSNS/images/slide2.png" /></div>
+    <div class="swiper-slide"><img src="/footballSNS/images/slide3.png" /></div>
+    <div class="swiper-slide" action-type="goto.index"><img src="/footballSNS/images/slide4.png" /></div>
+  </div>
+</div>-->

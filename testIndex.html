@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.sec-container{
+				padding-top:0.04rem;
+				.sec-user{
+					padding: 0 0.05rem;
+					background: $base-color;
+				    height: .62rem;
+				    ul {
+				      width: 100%;
+				      height: 100%;
+				      @include flexbox();
+				      li:not(:nth-child(2)) {
+				        width: .6rem;
+				        line-height: .62rem;
+				        @include flexbox();
+				        @include align-items(center);
+				        @include justify-content(center);
+				        img:first{
+				        	
+				        	border-radius: 100%;
+				        	width: 0.4rem;
+				        	height: 0.4rem;
+				        }
+				        a {
+				        	display: block;
+				        	width: 0.4rem;
+				        	height: 0.4rem;
+				        	img{
+				        		height: 0.25rem;
+				        	}
+				        	b{
+				        		height: 0.15rem;
+				        		line-height: 0.15rem;
+				        		text-align: center;
+				        	}
+				        }
+				        /*text-align: center;
+				        font-size: .2rem;
+				        color: rgba(255,255,255, 0.8);*/
+				      }
+				      li:nth-child(2) {
+				        @include flex();
+				        @include flexbox();
+				        @include align-items(center);
+				        @include justify-content(center);
+				        span {
+				          display: block;
+				          
+				          height: .2rem;
+				          line-height: .2rem;
+				          text-align: center;
+				          font-size: .12rem;
+				          color: rgba(255,255,255, 0.5);
+				          background: rgba(100, 217, 133, 0.5);
+				          
+				        }
+				      }
+				    }
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="m-index">
+		  
+		    <div class="sec-container">
+		    	<div class="sec-user">
+		    		<ul>
+		    			<li class="sec-userImg"><img src=""/></li>
+		    			<li class="sec-userName">
+		    				<span>sunflower1109颖</span>
+		    				<span><i>5</i><em>小时</em>前</span>
+		    			</li>
+		    			<li class="sec-userattention">
+		    				<a href="">
+		    					<img src=""/>
+		    					<b>加关注</b>
+		    				</a>
+		    			</li>
+		    		</ul>
+		    	</div>
+		    	<div class="sec-text">
+		    		<span >5.28五月最后的周末之吊顶，壁纸外加团长大王来巡山</span>
+		    	</div>
+		    	
+		    	
+		    	<div class="sec-img">
+		    		<a href=""><img src=""/></a>
+		    	</div>
+		    	
+		    	
+		    	<div class="sec-come">
+		    		<ul>
+		    			<li class="sec-comeLeft">
+		    				<a href="">精选自北京装修论坛</a>
+		    			</li>
+		    			<li class="sec-comeRight">
+		    				<a>
+		    					<img src=""/>
+		    					<i>102</i>
+		    				</a>
+		    				<a>
+		    					<img src=""/>
+		    					<i>1</i>
+		    				</a>
+		    				
+		    			</li>
+		    		</ul>
+		    	</div>
+		    </div>
+		  </section>
+		  <footer>
+		    <ul>
+		      <li>
+		        <i class="yo-ico">&#xe6bb;</i>
+		        <b>首页</b>
+		      </li>
+		      <li class="active">
+		        <i class="yo-ico">&#xe65c;</i>
+		        <b>发现</b>
+		      </li>
+		      <li>
+		        <i class="yo-ico">&#xe664;</i>
+		      </li>
+		      <li>
+		        <i class="yo-ico">&#xe735;</i>
+		        <b>我的</b>
+		      </li>
+		      <li action-type="exit">
+		        <i class="yo-ico">&#xe603;</i>
+		        <b>退出</b>
+		      </li>
+		    </ul>
+		  </footer>
+		  
+		  <header>
+		<!--    <ul>
+		      <li class="yo-ico">&#xe745;</li>
+		      <li>
+		        <span class="active">热点</span>
+		        <span>关注</span>
+		      </li>
+		      <li class="yo-ico">&#xe684;</li>
+		    </ul>      -->
+		    <input type="text" name="" id="" value="" placeholder="搜索用户/帖子" />
+		  </header>
+		  <!--<nav>
+		    <ul>
+		      <li class="active">足球现场</li>
+		      <li>足球生活</li>
+		      <li>足球美女</li>
+		    </ul>
+		  </nav>-->
+		  <section id="index-scroll" spa-widget="scroll">
+		  	<div class="swiper-container">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide"><img src="images/banner1.jpg"/></div>
+			        <div class="swiper-slide"><img src="images/banner2.jpg"/></div>
+			        <div class="swiper-slide"><img src="images/banner3.jpg"/></div>
+			        <div class="swiper-slide"><img src="images/banner4.jpg"/></div>
+			    </div>
+			    <!-- 如果需要分页器 -->
+			    <div class="swiper-pagination"></div>
+			</div>
+			
+		  	
+		  	
+		    <div>
+		      <ul>
+		        <li>
+		          <i><img src="/footballSNS/images/img1.jpg" /></i>
+		          <b>小丸子呀小丸子</b>
+		        </li>
+		        <li></li>
+		        <li>
+		          <i><img src="/footballSNS/images/img2.jpg" /></i>
+		          <b>小丸子呀小丸子</b>
+		        </li>
+		      </ul>
+		      <ul>
+		        <li>
+		          <i><img src="/footballSNS/images/img3.jpg" /></i>
+		          <b>小丸子呀小丸子</b>
+		        </li>
+		        <li></li>
+		        <li>
+		          <i><img src="/footballSNS/images/img4.jpg" /></i>
+		          <b>小丸子呀小丸子</b>
+		        </li>
+		      </ul>
+		      <ul>
+		        <li>
+		          <i><img src="/footballSNS/images/img1.jpg" /></i>
+		          <b>小丸子呀小丸子</b>
+		        </li>
+		        <li></li>
+		        <li>
+		          <i><img src="/footballSNS/images/img2.jpg" /></i>
+		          <b>小丸子呀小丸子</b>
+		        </li>
+		      </ul>
+		    </div>
+		    
+		    <div class="air">
+		    	
+		    </div>
+		</div>
+	
+	</body>
+</html>

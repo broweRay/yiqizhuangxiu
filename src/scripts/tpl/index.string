@@ -1,0 +1,28 @@
+<div class="m-index" action-type="goto.index">
+	<div class="m-index-container"></div>
+  <footer>
+    <ul>
+      <li class="active" action-type="switch.view" data-tag="home">
+        <i class="yo-ico">&#xe61f;</i>
+        <b>首页</b>
+      </li>
+      <li  action-type="switch.view" data-tag="owner">
+        <i class="yo-ico">&#xe613;</i>
+        <b>业主说</b>
+      </li>
+      <li action-type="switch.view" data-tag="find">
+        <i class="yo-ico">&#xe689;</i>
+        <b>发现</b>
+      </li>
+      <li action-type="switch.view" data-tag="news">
+        <i class="yo-ico">&#xe619;</i>
+        <b>消息</b>
+      </li>
+      <li action-type="exit" >
+        <i class="yo-ico">&#xe6bc;</i>
+        <b>我的</b>
+      </li>
+    </ul>
+  </footer>
+</div>
+

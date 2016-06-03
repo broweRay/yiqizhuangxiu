@@ -1,0 +1,173 @@
+	<header>
+	<!--    <ul>
+      <li class="yo-ico">&#xe745;</li>
+      <li>
+        <span class="active">热点</span>
+        <span>关注</span>
+      </li>
+      <li class="yo-ico">&#xe684;</li>
+    </ul>      -->
+    <input type="text" name="" id="" value="" placeholder="搜索用户/帖子" />
+  </header>
+	<!--<nav>
+	    <ul>
+	      <li class="active">足球现场</li>
+	      <li>足球生活</li>
+	      <li>足球美女</li>
+	    </ul>
+  	</nav>  -->
+  <section id="index-scroll" spa-widget="scroll">
+		  <div>
+		  	<div class="swiper-container">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide"><img src="images/banner1.jpg"/></div>
+			 		<div class="swiper-slide"><img src="images/banner2.jpg"/></div>
+			        <div class="swiper-slide"><img src="images/banner3.jpg"/></div>
+			        <div class="swiper-slide"><img src="images/banner4.jpg"/></div>  
+			    </div>
+			    <!-- 如果需要分页器 -->
+			    <div class="swiper-pagination"></div>
+			</div>
+	  	
+	    <div>
+	      <ul class="ulTop">
+	        <li class="ulIcon">
+	          <i><img src="/yiqizhuangxiu/images/home_feature_renderings.png" /></i>
+	          <b>效果图</b>
+	        </li>
+	        <li class="ulIcon">
+	          <i><img src="/yiqizhuangxiu/images/home_feature_school.png" /></i>
+	          <b>装修学堂</b>
+	        </li>
+	        <li class="ulIcon">
+	          <i><img src="/yiqizhuangxiu/images/home_feature_my_budget.png" /></i>
+	          <b>我的预算</b>
+	        </li>
+	        <li class="ulIcon">
+	          <i><img src="/yiqizhuangxiu/images/home_feature_trap.png" /></i>
+	          <b>装修陷阱</b>
+	        </li>
+	        <li class="ulIcon">
+	          <i><img src="/yiqizhuangxiu/images/home_feature_fengshui.png" /></i>
+	          <b>装修风水</b>
+	        </li>
+	      </ul>
+	      <ul class="ulBottom">
+	        <li class="ulIcon">
+	          <i><img src="/yiqizhuangxiu/images/home_feature_renderings.png" /></i>
+	          <b>效果图</b>
+	        </li>
+	        <li class="ulIcon">
+	          <i><img src="/yiqizhuangxiu/images/home_feature_school.png" /></i>
+	          <b>装修学堂</b>
+	        </li>
+	        <li class="ulIcon">
+	          <i><img src="/yiqizhuangxiu/images/home_feature_my_budget.png" /></i>
+	          <b>我的预算</b>
+	        </li>
+	        <li class="ulIcon">
+	          <i><img src="/yiqizhuangxiu/images/home_feature_trap.png" /></i>
+	          <b>装修陷阱</b>
+	        </li>
+	        <li class="ulIcon">
+	          <i><img src="/yiqizhuangxiu/images/home_feature_fengshui.png" /></i>
+	          <b>装修风水</b>
+	        </li>
+	      </ul>
+	      
+	    </div>
+	    <div class="air">
+			    	
+			</div>
+			<div class="sec-container">
+				<div class="sec-user">
+					<ul>
+						<li class="sec-userImg"><img src="/yiqizhuangxiu/images/merchant_call_man.png"/></li>
+						<li class="sec-userName">
+							<p>
+								<span>sunflower1109颖</span>
+				    			<span><i>5</i><em>小时</em>前</span>
+				    		</p>
+						</li>
+						<li class="sec-userattention">
+							<a href="">
+								<img src="/yiqizhuangxiu/images/add_attention.png"/>
+								<b>加关注</b>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="sec-text">
+		    		<span >5.28五月最后的周末之吊顶，壁纸外加团长大王来巡山</span>
+		    	</div>
+		    	<div class="sec-img">
+		    		<a href=""><img src="/yiqizhuangxiu/images/sec-images1.jpg"/></a>
+		    	</div>
+		    	<div class="sec-come">
+		    		<ul>
+		    			<li class="sec-comeLeft">
+		    				<a href="">精选自北京装修论坛</a>
+		    			</li>
+		    			<li class="sec-comeRight">
+		    				<a>
+		    					<img src="/yiqizhuangxiu/images/looked_num_icon.png"/>
+		    					<i>102</i>
+		    				</a>
+		    				<a>
+		    				</a>
+		    				<a>
+		    					<img src="/yiqizhuangxiu/images/comment_normal.png"/>
+		    					<i>1</i>
+		    				</a>
+		    				
+		    			</li>
+		    		</ul>
+		    	</div>
+			</div>
+			<div class="sec-container">
+				<div class="sec-user">
+					<ul>
+						<li class="sec-userImg"><img src="/yiqizhuangxiu/images/merchant_call_man.png"/></li>
+						<li class="sec-userName">
+							<p>
+								<span>sunflower1109颖</span>
+				    			<span><i>5</i><em>小时</em>前</span>
+				    		</p>
+						</li>
+						<li class="sec-userattention">
+							<a href="">
+								<img src="/yiqizhuangxiu/images/add_attention.png"/>
+								<b>加关注</b>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="sec-text">
+		    		<span >5.28五月最后的周末之吊顶，壁纸外加团长大王来巡山</span>
+		    	</div>
+		    	<div class="sec-img">
+		    		<a href=""><img src="/yiqizhuangxiu/images/sec-images1.jpg"/></a>
+		    	</div>
+		    	<div class="sec-come">
+		    		<ul>
+		    			<li class="sec-comeLeft">
+		    				<a href="">精选自北京装修论坛</a>
+		    			</li>
+		    			<li class="sec-comeRight">
+		    				<a>
+		    					<img src="/yiqizhuangxiu/images/looked_num_icon.png"/>
+		    					<i>102</i>
+		    				</a>
+		    				<a>
+		    				</a>
+		    				<a>
+		    					<img src="/yiqizhuangxiu/images/comment_normal.png"/>
+		    					<i>1</i>
+		    				</a>
+		    				
+		    			</li>
+		    		</ul>
+		    	</div>
+			</div>
+		</div>
+  </section>
